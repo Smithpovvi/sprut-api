@@ -5,7 +5,7 @@ import {
   TFindUser,
 } from '@core/models/user.model.interface';
 import { IUserRepo } from '@core/repositories/user.repo.interface';
-import { PG_CONNECTION } from '@database/database.module';
+import { PG_CONNECTION } from '@database/connection.module';
 
 @Injectable()
 export class UsersRepo implements IUserRepo {
